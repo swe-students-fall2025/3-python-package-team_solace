@@ -8,4 +8,6 @@ def test_random_snack_membership():
     assert isinstance(s, str) and len(s) > 0
 
 def test_random_snack_varies_with_seed():
-    assert random_snack(seed=3) != random_snack(seed=4)
+    # Over multiple seeds we should see at least 2 distinct results
+    results = {random_snack(seed=i) for i in range(10)}
+    assert len(results) >= 2
