@@ -5,17 +5,15 @@ USAGE = """\
 snacktime v{v}
 
 Usage:
-  snacktime snack            # random snack
-  snacktime recipt           # simple salad recipe (accepts 'recipe' too)
-  snacktime recipe           # same as 'recipt' (spelling friendly)
-  snacktime vegitable        # random vegetable (accepts 'vegetable' too)
-  snacktime vegetable        # same as 'vegitable'
-  snacktime treat            # random sweet treat
+  snacktime snack                # random snack
+  snacktime recipe [--serves N] [--dressing NAME]
+  snacktime vegetable [--seed N] # random vegetable
+  snacktime treat [--seed N]     # random sweet treat
 
 Options:
-  --seed N                   # deterministic output for snack/veg/treat
-  --serves N                 # servings for the salad recipe (default 1)
-  --dressing NAME            # lemon | balsamic | olive (default lemon)
+  --seed N       Deterministic selection for snack/vegetable/treat (default: none)
+  --serves N     Servings for the salad recipe (default: 2)
+  --dressing NAME  lemon | balsamic | olive (default: balsamic)
 """
 
 def main(argv=None):
@@ -26,12 +24,6 @@ def main(argv=None):
 
     cmd = argv[0].lower().strip()
     args = argv[1:]
-
-    # spelling-friendly aliases
-    if cmd == "recipt":
-        cmd = "recipe"
-    if cmd == "vegitable":
-        cmd = "vegetable"
 
     # parse simple flags
     def read_flag(name, cast=int, default=None):
@@ -44,8 +36,8 @@ def main(argv=None):
         return default
 
     seed = read_flag("--seed", int, None)
-    serves = read_flag("--serves", int, 2)          # default now 2
-    dressing = read_flag("--dressing", str, "balsamic")
+    serves = read_flag("--serves", int, 2)                  
+    dressing = read_flag("--dressing", str, "balsamic")     
 
     if cmd == "snack":
         print(random_snack(seed=seed)); return 0
