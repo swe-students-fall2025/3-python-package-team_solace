@@ -8,22 +8,6 @@ version = "0.2.0"
 description = "CLI that gives a random snack, a simple salad recipe, a random vegetable, or a sweet treat."
 readme = "README.md"
 requires-python = ">=3.9"
-authors = [{ name = "Your Name", email = "you@example.com" }]
-license = { text = "MIT" }
-keywords = ["snack", "recipe", "vegetable", "treat", "fun", "cli"]
-classifiers = [
-  "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3 :: Only",
-  "License :: OSI Approved :: MIT License",
-  "Environment :: Console",
-  "Topic :: Games/Entertainment",
-  "Topic :: Utilities"
-]
-
-[project.urls]
-Homepage = "https://github.com/swe-students-fall2025/3-python-package-team_solace"
-Repository = "https://github.com/swe-students-fall2025/3-python-package-team_solace"
-Issues = "https://github.com/swe-students-fall2025/3-python-package-team_solace/issues"
 
 [project.scripts]
 snacktime = "snacktime.__main__:main"
