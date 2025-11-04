@@ -10,6 +10,6 @@ class Tests:
         assert isinstance(s, str) and len(s) > 0
 
     def test_random_snack_varies_with_seed(self):
-        # Over multiple seeds we should see at least 2 distinct results
-        results = {random_snack(seed=i) for i in range(10)}
-        assert len(results) >= 2
+        seeds = range(10, 30)
+        values = [random_snack(seed=s) for s in seeds]
+        assert len(set(values)) > 1
