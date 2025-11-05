@@ -99,7 +99,7 @@ Steps
 | **Package Name** | `snacktime` |
 | **Version** | 0.3.0 |
 | **Author** | Team Solace |
-| **License** | GLP 3.0 |
+| **License** | GPL 3.0 |
 | **Language** | Python 3.9+ |
 | **PyPI Page** | [https://pypi.org/project/snacktime/0.3.0/](https://pypi.org/project/snacktime/0.3.0/) |
 
