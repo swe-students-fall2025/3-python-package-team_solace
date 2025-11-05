@@ -2,6 +2,14 @@ from typing import Optional, Sequence
 import random
 import textwrap
 
+def _normalize_seed(seed: Optional[int]) -> Optional[int]:
+    """Accept only int or None; raise on other types."""
+    if seed is None:
+        return None
+    if isinstance(seed, bool) or not isinstance(seed, int):
+        raise TypeError("seed must be an int or None")
+    return seed
+
 _SNACKS: Sequence[str] = (
     "pretzels", "popcorn", "granola bar", "apple slices", "yogurt cup",
     "cheese & crackers", "trail mix", "rice cakes", "hummus & pita"
@@ -18,18 +26,18 @@ _TREATS: Sequence[str] = (
 )
 
 def random_snack(seed: Optional[int] = None) -> str:
-    """Return a random snack (deterministic if seed is provided)."""
-    rng = random.Random(seed)
+    seed = _normalize_seed(seed)
+    rng = random.Random(seed) if seed is not None else random.Random()
     return rng.choice(_SNACKS)
 
 def random_vegetable(seed: Optional[int] = None) -> str:
-    """Return a random vegetable (deterministic if seed is provided)."""
-    rng = random.Random(seed)
+    seed = _normalize_seed(seed)
+    rng = random.Random(seed) if seed is not None else random.Random()
     return rng.choice(_VEGETABLES)
 
 def random_treat(seed: Optional[int] = None) -> str:
-    """Return a random sweet treat (deterministic if seed is provided)."""
-    rng = random.Random(seed)
+    seed = _normalize_seed(seed)
+    rng = random.Random(seed) if seed is not None else random.Random()
     return rng.choice(_TREATS)
 
 def recipe_salad(serves: int = 1, dressing: str = "lemon") -> str:
