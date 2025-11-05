@@ -9,6 +9,8 @@ Originally created as part of the Software Engineering Fall 2025 team project �
 
 🔗 **Link:** [https://pypi.org/project/snacktime/0.3.0/](https://pypi.org/project/snacktime/0.3.0/)  
 📦 **Latest version:** 0.3.0
+📓 **Build & Test:** ![Build & Tests](https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=main)
+
 
 ---
 
@@ -97,7 +99,7 @@ Steps
 | **Package Name** | `snacktime` |
 | **Version** | 0.3.0 |
 | **Author** | Team Solace |
-| **License** | MIT |
+| **License** | GLP 3.0 |
 | **Language** | Python 3.9+ |
 | **PyPI Page** | [https://pypi.org/project/snacktime/0.3.0/](https://pypi.org/project/snacktime/0.3.0/) |
 
