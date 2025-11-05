@@ -2,6 +2,9 @@ name: PR Tests
 on: 
   pull_request:
     types: [opened, synchronize, closed]
+  push:
+    branches:
+      [pipfile-experiment]
 
 jobs:
   build:
