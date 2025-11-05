@@ -1,6 +1,6 @@
 # 🥗 snacktime 
 
-(https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=update-readme2)
+![Build & Tests](https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=update-readme2)
 
 A lightweight and fun Python package that helps you pick a **random snack**, **vegetable**, **sweet treat**, or even generate a **simple salad recipe**.  
 Originally created as part of the Software Engineering Fall 2025 team project — this package demonstrates Python packaging, publishing, and CI automation.
