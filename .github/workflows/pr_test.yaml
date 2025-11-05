@@ -2,10 +2,10 @@ name: Tests
 on:
   push:
     branches: [pipfile-experiment]
-    tag: ['*']
+    tags: ['*']
   pull_request:
     branches: [pipfile-experiment]
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened, closed]
 
 jobs:
   build:
