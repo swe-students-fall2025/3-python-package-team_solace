@@ -4,7 +4,9 @@ on:
     types: [opened, synchronize, closed]
   push:
     branches:
-      [pipfile-experiment]
+      [pipfile-experiment,readme-update2]
+  workflow_dispatch: {}
+
 
 jobs:
   build:
