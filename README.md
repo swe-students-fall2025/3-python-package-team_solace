@@ -1,4 +1,7 @@
-# 🥗 snacktime
+# 🥗 snacktime 
+
+![Build & Tests](https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=readme-update2)
+
 
 A lightweight and fun Python package that helps you pick a **random snack**, **vegetable**, **sweet treat**, or even generate a **simple salad recipe**.  
 Originally created as part of the Software Engineering Fall 2025 team project — this package demonstrates Python packaging, publishing, and CI automation.
@@ -8,7 +11,7 @@ Originally created as part of the Software Engineering Fall 2025 team project �
 ## 📦 PyPI Project
 
 🔗 **Link:** [https://pypi.org/project/snacktime/0.3.0/](https://pypi.org/project/snacktime/0.3.0/)  
-📦 **Latest version:** 0.3.0
+📦 **Latest version:** 0.3.0  
 
 ---
 
@@ -97,7 +100,7 @@ Steps
 | **Package Name** | `snacktime` |
 | **Version** | 0.3.0 |
 | **Author** | Team Solace |
-| **License** | MIT |
+| **License** | GPL 3.0 |
 | **Language** | Python 3.9+ |
 | **PyPI Page** | [https://pypi.org/project/snacktime/0.3.0/](https://pypi.org/project/snacktime/0.3.0/) |
 

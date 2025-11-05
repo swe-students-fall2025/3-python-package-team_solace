@@ -1,7 +1,11 @@
 name: PR Tests
-on: 
+on:
+  push:
+    branches: [ pipfile-experiment,readme-update2 ]
   pull_request:
-    types: [opened, synchronize, closed]
+    types: [opened, synchronize, reopened]
+
+
 
 jobs:
   build:
