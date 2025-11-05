@@ -1,9 +1,9 @@
 # 🥗 snacktime 
 
 **Build & Tests**  
-Python 3.09![Python 3.09](https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=readme-update2&label=Python%203.09)  
-Python 3.10 ![Python 3.10](https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=readme-update2&label=Python%203.10)  
-Python 3.11 ![Python 3.11](https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=readme-update2&label=Python%203.11)  
+Python 3.09  ![Python 3.09](https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=readme-update2&label=Python%203.09)  
+Python 3.10   ![Python 3.10](https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=readme-update2&label=Python%203.10)  
+Python 3.11   ![Python 3.11](https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=readme-update2&label=Python%203.11)  
 
 
 
