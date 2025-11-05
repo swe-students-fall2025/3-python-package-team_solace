@@ -9,7 +9,7 @@ Originally created as part of the Software Engineering Fall 2025 team project �
 
 🔗 **Link:** [https://pypi.org/project/snacktime/0.3.0/](https://pypi.org/project/snacktime/0.3.0/)  
 📦 **Latest version:** 0.3.0  
-📓 **Build & Test:** ![Build & Tests](https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=readme-update2)
+📓 **Build & Test:** ![Build & Tests](https://github.com/swe-students-fall2025/3-python-package-team_solace/actions/workflows/pr_test.yaml/badge.svg?branch=pipfile-experiment)
 
 
 ---
