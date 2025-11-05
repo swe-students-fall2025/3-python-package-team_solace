@@ -75,13 +75,8 @@ Steps
 
 ## 👥 Team Solace
 
-| Member |
+- **Member**: funfigwat, qiexian-mf, ems9856-lgtm, hanqigui, jawarbx
 
-| **funfigwat** | 
-| **qiexian-mf** | 
-| **ems9856-lgtm** |
-| **hanqigui** | 
-| **jawarbx** |
 ---
 
 ## 🧠 Notes
