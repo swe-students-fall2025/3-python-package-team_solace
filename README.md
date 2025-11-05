@@ -14,8 +14,7 @@ Originally created as part of the Software Engineering Fall 2025 team project �
 
 ## 📦 PyPI Project
 
-🔗 **Link:** [https://pypi.org/project/snacktime/0.3.0/](https://pypi.org/project/snacktime/0.3.0/)  
-📦 **Latest version:** 0.3.0  
+🔗 **Link:** [https://pypi.org/project/snacktime/](https://pypi.org/project/snacktime/)  
 
 ---
 
@@ -24,7 +23,7 @@ Originally created as part of the Software Engineering Fall 2025 team project �
 You can install directly from PyPI using pip:
 
 ```bash
-pip install snacktime==0.3.0
+pip install snacktime
 ```
 
 ---
@@ -88,7 +87,7 @@ Steps
 
 ## 🧠 Notes
 
-- Tested with **Python 3.9+** on macOS.  
+- Tested with **Python 3.9+** on macOS and Linux.  
 - All random functions can be made deterministic with a `seed` argument.  
   ```python
   snacktime.random_snack(seed=42)
@@ -102,11 +101,10 @@ Steps
 | Field | Description |
 |-------|-------------|
 | **Package Name** | `snacktime` |
-| **Version** | 0.3.0 |
 | **Author** | Team Solace |
 | **License** | GPL 3.0 |
 | **Language** | Python 3.9+ |
-| **PyPI Page** | [https://pypi.org/project/snacktime/0.3.0/](https://pypi.org/project/snacktime/0.3.0/) |
+| **PyPI Page** | [https://pypi.org/project/snacktime/](https://pypi.org/project/snacktime/)  
 
 ---
 
