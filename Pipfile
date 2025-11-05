@@ -11,7 +11,7 @@ build = "*"
 twine = "*"
 
 [requires]
-python_version = "3"
+python_version = "3.12"
 
 [scripts]
 snacktime = "python -m snacktime"
