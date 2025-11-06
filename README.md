@@ -41,11 +41,9 @@ print(snacktime.random_treat())
 print(snacktime.recipe_salad(serves=2, dressing="balsamic"))
 ```
 
----
+### 🧾 Example Output
 
-## 🧾 Example Output
-
-```
+```bash
 granola bar
 spinach
 cupcake
@@ -67,6 +65,37 @@ Steps
 2) Whisk dressing separately, then drizzle over salad.
 3) Sprinkle nuts/seeds. Season with salt & pepper. Toss and serve.
 ```
+
+
+Or, if preferred, snacktime can be called from the command line once installed:
+```bash
+$ pipenv run snacktime snack
+pretzels
+$ pipenv run snacktime treat
+churro
+$ pipenv run snacktime vegetable
+spinach
+$ pipenv run snacktime recipe
+Simple Green Salad
+Serves: 2
+
+Ingredients
+----------
+- 4 cups mixed greens
+- 2 cup chopped vegetables (e.g., cucumber, tomato, carrot)
+- 4 tbsp nuts or seeds (optional)
+- Salt & pepper to taste
+- Dressing: 4 tbsp olive oil, 2 tbsp balsamic vinegar, pinch of salt
+
+Steps
+-----
+1) Toss greens and chopped veggies in a bowl.
+2) Whisk dressing separately, then drizzle over salad.
+3) Sprinkle nuts/seeds. Season with salt & pepper. Toss and serve.
+```
+
+Make sure not to snack too much!
+
 
 ---
 
