@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "snacktime"
-version = "0.5.0"
+version = "0.5.1"
 description = "CLI that gives a random snack, a simple salad recipe, a random vegetable, or a sweet treat."
 authors = [
     {name="Ezra Shapiro", email="ems9856@nyu.edu"},
